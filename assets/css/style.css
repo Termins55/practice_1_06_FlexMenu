@@ -1,3 +1,54 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: url(/assets/images/main_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 1.5rem;
+  position: relative;
+}
+
+header {
+  background-color: rgb(39, 30, 30);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  margin: 0 auto;
+  width: 100%;
+  min-height: 200px;
+  position: fixed;
+  flex-wrap: wrap;
+}
+
+ul {
+  display: flex;
+  gap: 40px;
+}
+
+header,
+nav,
+footer {
+  flex-basis: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  display: flex;
+  justify-self: center;
+}
+
+.footerContact {
+  border: 1px solid white;
+  text-decoration: none;
+  padding: 15px 25px 15px 25px;
+  border-radius: 5px;
 }
